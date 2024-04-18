@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="hero_bg_img min-vh-100 d-flex flex-column">
+        <nav>
+            <div class="hero_container">
+                <div class="d-flex align-items-center justify-content-between py_30">
+                    <span><img src="./assets/img/png/nav-icon.png" alt="nav icon" class="w-100"></span>
+
+                    <ul class="d-flex align-items-center gap_36 mb-0 ps-0 menuList ">
+                        <li><a href="#" class="ff-hl fs-16 fw-4 lh-24 nav_links text-white opacity-75">Home</a></li>
+                        <li><a href="#" class="ff-hl fs-16 fw-4 lh-24 nav_links text-white opacity-75">About Us</a></li>
+                        <li><a href="#" class="ff-hl fs-16 fw-4 lh-24 nav_links text-white opacity-75">Issues</a></li>
+                        <li><a href="#" class="ff-hl fs-16 fw-4 lh-24 nav_links text-white opacity-75">Schlorships</a>
+                        </li>
+                        <li><a href="#" class="ff-hl fs-16 fw-4 lh-24 nav_links text-white opacity-75">Curriculum</a>
+                        </li>
+                        <li><a href="#" class="ff-hl fs-16 fw-4 lh-24 nav_links text-white opacity-75">Grants</a></li>
+                        <li><a href="#" class="ff-hl fs-16 fw-4 lh-24 nav_links text-white opacity-75">Donate</a></li>
+                        <button
+                            class="d-flex align-items-center txt-color fw-7 fs-20 lh-32 ff-hl gap-2 justify-content-center submit_btn d-lg-none d-block">
+                            Submit
+                            <img src="./assets/img/png/arrow.png" alt="arrow" class="arrow">
+                        </button>
+                    </ul>
+                    <div id="nav-icon1" class="menuIcon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <button
+                        class="d-flex align-items-center txt-color fw-7 fs-20 lh-32 ff-hl gap-2 justify-content-center submit_btn d-lg-block d-none">
+                        Submit
+                        <img src="./assets/img/png/arrow.png" alt="arrow" class="arrow">
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- hero section -->
+        <div class="flex-grow-1 d-block align-content-center flex-column justify-content-center">
+            <div class="hero_container">
+                <h1 class="ff-ed fw-7 fs-64 lh-83 txt-color">Dive Into The Past</h1>
+                <p class="ff-hl fw-4 fs-16 lh-25 opacity-75 text-white max-w_436">Lorem ipsum dolor sit amet
+                    consectetur. Sit vel a nunc enim amet phasellus fringilla. Sed vel egestas at cras rutrum
+                    nunc massa . Lectus sed vestibulum facilisis odio.</p>
+                <button
+                    class="d-flex align-items-center txt-color fw-7 fs-20 lh-32 ff-hl gap-2 justify-content-center submit_btn mt_32">
+                    Submit Now
+                    <img src="./assets/img/png/arrow.png" alt="arrow" class="arrow">
+                </button>
+                <p class="ff-hl fw-4 fs-20 lh-32 opacity-75 text-white max-w_436 pt-1">Submit by May 1, 2023</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="hero_container shadow rounded-3 position-relative detail-sec bg-white">
+                <div class="p-5">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 mt-lg-0 d-flex justify-content-sm-start justify-content-center">
+                            <div class="d-flex align-items-center gap-3">
+                                <span class="svg-icon-box d-flex align-items-center justify-content-center">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.551 15C6.94092 14.9994 6.356 14.7568 5.92461 14.3254C5.49321 13.894 5.2506 13.3091 5.25 12.699C5.25 12.5001 5.17098 12.3093 5.03033 12.1687C4.88968 12.028 4.69891 11.949 4.5 11.949C4.30109 11.949 4.11032 12.028 3.96967 12.1687C3.82902 12.3093 3.75 12.5001 3.75 12.699V12.75C3.75 12.7642 3.75 12.777 3.75 12.7913C3.77503 13.783 4.1864 14.7257 4.89642 15.4185C5.60645 16.1113 6.55898 16.4993 7.551 16.5H8.25V17.25C8.25 17.4489 8.32902 17.6397 8.46967 17.7803C8.61032 17.921 8.80109 18 9 18C9.19891 18 9.38968 17.921 9.53033 17.7803C9.67098 17.6397 9.75 17.4489 9.75 17.25V16.5H10.449C11.351 16.499 12.2233 16.1773 12.9099 15.5924C13.5965 15.0074 14.0527 14.1973 14.197 13.3069C14.3413 12.4165 14.1642 11.5038 13.6974 10.732C13.2306 9.96017 12.5046 9.37948 11.649 9.09375L9.75 8.46V3H10.449C11.0591 3.0006 11.644 3.24321 12.0754 3.67461C12.5068 4.106 12.7494 4.69092 12.75 5.301C12.75 5.49991 12.829 5.69068 12.9697 5.83133C13.1103 5.97198 13.3011 6.051 13.5 6.051C13.6989 6.051 13.8897 5.97198 14.0303 5.83133C14.171 5.69068 14.25 5.49991 14.25 5.301V5.25C14.25 5.23575 14.25 5.223 14.25 5.20875C14.225 4.21705 13.8136 3.27434 13.1036 2.58154C12.3936 1.88875 11.441 1.50066 10.449 1.5H9.75V0.75C9.75 0.551088 9.67098 0.360322 9.53033 0.21967C9.38968 0.0790176 9.19891 0 9 0C8.80109 0 8.61032 0.0790176 8.46967 0.21967C8.32902 0.360322 8.25 0.551088 8.25 0.75V1.5H7.551C6.64899 1.50096 5.77672 1.82268 5.0901 2.40763C4.40347 2.99259 3.94726 3.80267 3.80299 4.69307C3.65872 5.58347 3.83581 6.49615 4.30259 7.26799C4.76938 8.03983 5.49544 8.62052 6.351 8.90625L8.25 9.54V15H7.551ZM9.75 10.0402L11.175 10.5157C11.6934 10.6883 12.1336 11.0397 12.4166 11.5071C12.6996 11.9745 12.8071 12.5274 12.7198 13.0667C12.6324 13.6061 12.356 14.0968 11.94 14.451C11.5239 14.8053 10.9954 14.9998 10.449 15H9.75V10.0402ZM6.825 7.48425C6.30655 7.3117 5.86643 6.96028 5.5834 6.49289C5.30037 6.0255 5.1929 5.47264 5.28023 4.93326C5.36755 4.39387 5.64397 3.90317 6.06002 3.54896C6.47607 3.19475 7.00459 3.00015 7.551 3H8.25V7.95975L6.825 7.48425Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </span>
+                                <p class="mb-0 ff-hl fs-20 fw-4 lh-32"><span class="fw-7">$60,000</span> Cash Prizes</p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 col-sm-6 mt-sm-0 mt-5 d-flex justify-content-sm-start justify-content-center">
+                            <div class="d-flex align-items-center gap-3">
+                                <span class="svg-icon-box d-flex align-items-center justify-content-center">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_41260_10517)">
+                                            <path
+                                                d="M12.2235 6.216L13.2765 7.28475L8.93175 11.565C8.6415 11.8553 8.25975 12 7.8765 12C7.49325 12 7.10775 11.8538 6.8145 11.5612L4.728 9.53925L5.77275 8.4615L7.8675 10.4918L12.2235 6.216ZM18 9C18 13.9628 13.9628 18 9 18C4.03725 18 0 13.9628 0 9C0 4.03725 4.03725 0 9 0C13.9628 0 18 4.03725 18 9ZM16.5 9C16.5 4.8645 13.1355 1.5 9 1.5C4.8645 1.5 1.5 4.8645 1.5 9C1.5 13.1355 4.8645 16.5 9 16.5C13.1355 16.5 16.5 13.1355 16.5 9Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_41260_10517">
+                                                <rect width="18" height="18" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+
+                                </span>
+                                <p class="mb-0 ff-hl fs-20 fw-4 lh-32"><span class="fw-7">6%</span> Acceptance Rate</p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 col-sm-6 mt-5 mt-lg-0 d-flex justify-content-sm-start justify-content-center">
+                            <div class="d-flex align-items-center gap-3">
+                                <span class="svg-icon-box d-flex align-items-center justify-content-center">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_41260_10528)">
+                                            <path
+                                                d="M9 0C7.21997 0 5.47991 0.527841 3.99987 1.51677C2.51983 2.50571 1.36628 3.91131 0.685088 5.55585C0.00389957 7.20038 -0.17433 9.00998 0.172937 10.7558C0.520204 12.5016 1.37737 14.1053 2.63604 15.364C3.89472 16.6226 5.49836 17.4798 7.24419 17.8271C8.99002 18.1743 10.7996 17.9961 12.4442 17.3149C14.0887 16.6337 15.4943 15.4802 16.4832 14.0001C17.4722 12.5201 18 10.78 18 9C17.9974 6.61384 17.0484 4.32616 15.3611 2.63889C13.6738 0.951621 11.3862 0.00258081 9 0ZM15.4853 5.25H13.0695C12.5287 3.99674 11.8167 2.82456 10.9538 1.767C12.8636 2.2867 14.4917 3.5381 15.4853 5.25ZM12.375 9C12.3688 9.76361 12.2485 10.522 12.018 11.25H5.982C5.75149 10.522 5.63116 9.76361 5.625 9C5.63116 8.2364 5.75149 7.47801 5.982 6.75H12.018C12.2485 7.47801 12.3688 8.2364 12.375 9ZM6.5835 12.75H11.4165C10.7799 14.0068 9.96612 15.1656 9 16.191C8.03353 15.1659 7.21968 14.007 6.5835 12.75ZM6.5835 5.25C7.22008 3.9932 8.03389 2.83437 9 1.809C9.96648 2.83408 10.7803 3.99297 11.4165 5.25H6.5835ZM7.05 1.767C6.18575 2.82434 5.47244 3.99652 4.9305 5.25H2.51475C3.50915 3.53732 5.13875 2.28582 7.05 1.767ZM1.84575 6.75H4.425C4.23057 7.48436 4.12977 8.24035 4.125 9C4.12977 9.75965 4.23057 10.5156 4.425 11.25H1.84575C1.38476 9.78542 1.38476 8.21458 1.84575 6.75ZM2.51475 12.75H4.9305C5.47244 14.0035 6.18575 15.1757 7.05 16.233C5.13875 15.7142 3.50915 14.4627 2.51475 12.75ZM10.9538 16.233C11.8167 15.1754 12.5287 14.0033 13.0695 12.75H15.4853C14.4917 14.4619 12.8636 15.7133 10.9538 16.233ZM16.1543 11.25H13.575C13.7694 10.5156 13.8702 9.75965 13.875 9C13.8702 8.24035 13.7694 7.48436 13.575 6.75H16.1528C16.6137 8.21458 16.6137 9.78542 16.1528 11.25H16.1543Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_41260_10528">
+                                                <rect width="18" height="18" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+
+
+                                </span>
+                                <p class="mb-0 ff-hl fs-20 fw-4 lh-32"><span class="fw-7">Published </span> Quarterly
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mt-5 d-flex justify-content-sm-start justify-content-center">
+                            <div class="d-flex align-items-center gap-3">
+                                <span class="svg-icon-box d-flex align-items-center justify-content-center">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_41260_10511)">
+                                            <path
+                                                d="M14.925 2.32005C14.8328 1.92379 14.6609 1.55042 14.4199 1.22266C14.1789 0.894903 13.8737 0.619594 13.5229 0.41348C13.1721 0.207365 12.7831 0.0747528 12.3795 0.0237068C11.9758 -0.0273392 11.566 0.00424816 11.175 0.116548L9.882 0.486298C9.55446 0.580438 9.25277 0.748212 9 0.976798C8.74723 0.748212 8.44554 0.580438 8.118 0.486298L6.825 0.116548C6.4342 0.00483346 6.02478 -0.0263036 5.62158 0.0250267C5.21838 0.076357 4.82982 0.209084 4.47947 0.415152C4.12913 0.621219 3.82432 0.896329 3.58353 1.22378C3.34274 1.55124 3.17101 1.9242 3.07875 2.32005C2.2161 2.477 1.43572 2.93127 0.873249 3.6039C0.310783 4.27653 0.00179699 5.12499 0 6.0018L0 11.2518C0.00119089 12.246 0.396661 13.1991 1.09966 13.9021C1.80267 14.6051 2.7558 15.0006 3.75 15.0018H8.25V16.5018H6C5.80109 16.5018 5.61032 16.5808 5.46967 16.7215C5.32902 16.8621 5.25 17.0529 5.25 17.2518C5.25 17.4507 5.32902 17.6415 5.46967 17.7821C5.61032 17.9228 5.80109 18.0018 6 18.0018H12C12.1989 18.0018 12.3897 17.9228 12.5303 17.7821C12.671 17.6415 12.75 17.4507 12.75 17.2518C12.75 17.0529 12.671 16.8621 12.5303 16.7215C12.3897 16.5808 12.1989 16.5018 12 16.5018H9.75V15.0018H14.25C15.2442 15.0006 16.1973 14.6051 16.9003 13.9021C17.6033 13.1991 17.9988 12.246 18 11.2518V6.0018C17.9984 5.12552 17.6899 4.27749 17.1282 3.60494C16.5665 2.93238 15.787 2.47778 14.925 2.32005ZM9.75 2.65005C9.75007 2.48716 9.80317 2.32872 9.90127 2.19869C9.99937 2.06865 10.1371 1.97409 10.2938 1.9293L11.5875 1.55955C11.8108 1.49569 12.0458 1.48454 12.2741 1.52697C12.5024 1.56941 12.7177 1.66427 12.9032 1.80409C13.0886 1.9439 13.239 2.12486 13.3425 2.3327C13.4461 2.54053 13.5 2.76958 13.5 3.0018V5.9553C13.499 6.28076 13.3924 6.59711 13.1963 6.85689C13.0002 7.11666 12.7252 7.30584 12.4125 7.39605L9.75 8.15655V2.65005ZM5.1 1.8018C5.28505 1.66249 5.49994 1.56809 5.72771 1.52605C5.95549 1.48401 6.18992 1.49548 6.4125 1.55955L7.70625 1.9293C7.86286 1.97409 8.00063 2.06865 8.09873 2.19869C8.19683 2.32872 8.24993 2.48716 8.25 2.65005V8.15655L5.5875 7.39605C5.27478 7.30584 4.99975 7.11666 4.80367 6.85689C4.60759 6.59711 4.50104 6.28076 4.5 5.9553V3.0018C4.49924 2.7688 4.55312 2.53886 4.65732 2.33046C4.76152 2.12206 4.91314 1.94099 5.1 1.8018ZM16.5 11.2518C16.5 11.8485 16.2629 12.4208 15.841 12.8428C15.419 13.2647 14.8467 13.5018 14.25 13.5018H3.75C3.15326 13.5018 2.58097 13.2647 2.15901 12.8428C1.73705 12.4208 1.5 11.8485 1.5 11.2518V6.0018C1.50192 5.5381 1.64706 5.08633 1.91557 4.70827C2.18407 4.33022 2.56282 4.04436 3 3.8898V5.9553C3.00184 6.60655 3.21481 7.23965 3.60697 7.7596C3.99913 8.27955 4.54933 8.65831 5.175 8.83905L7.76325 9.5793C8.57214 9.80987 9.42936 9.80987 10.2382 9.5793L12.8265 8.83905C13.4519 8.65804 14.0018 8.27916 14.3936 7.75924C14.7855 7.23931 14.9983 6.60636 15 5.9553V3.8898C15.4372 4.04436 15.8159 4.33022 16.0844 4.70827C16.3529 5.08633 16.4981 5.5381 16.5 6.0018V11.2518Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_41260_10511">
+                                                <rect width="18" height="18" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+
+
+
+                                </span>
+                                <p class="mb-0 ff-hl fs-20 fw-4 lh-32"> Grades <span class="fw-7">9–12,</span> Worldwide
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mt-5 d-flex justify-content-sm-start justify-content-center">
+                            <div class="d-flex align-items-center gap-3">
+                                <span class="svg-icon-box d-flex align-items-center justify-content-center">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_41260_10522)">
+                                            <path
+                                                d="M8.99975 3.82031C6.02825 3.82031 5.28125 6.62381 5.28125 9.00056C5.28125 11.3781 6.02825 14.1808 8.99975 14.1808C11.9713 14.1808 12.7183 11.3773 12.7183 9.00056C12.7183 6.62381 11.9713 3.82031 8.99975 3.82031ZM7.39925 9.00056C7.39925 7.95356 7.472 5.77331 8.99975 5.77331C9.1205 5.77331 9.23075 5.79206 9.3335 5.81756C9.54725 6.00206 9.65225 6.25631 9.44675 6.61181L7.4675 10.2486C7.4075 9.78806 7.39925 9.33731 7.39925 9.00056ZM8.99975 12.2278C8.879 12.2278 8.76875 12.2151 8.66525 12.1896C8.64575 12.1836 8.54375 12.1513 8.51375 12.1393C8.17325 11.9946 7.95875 11.7328 8.26775 11.2693L10.4795 7.45031C10.5845 8.00831 10.5995 8.59106 10.5995 9.00056C10.6003 10.0476 10.5275 12.2278 8.99975 12.2278Z"
+                                                fill="white" />
+                                            <path
+                                                d="M17.3445 5.5395C16.905 4.44675 16.2623 3.48075 15.4155 2.634C13.6478 0.8775 11.499 0 8.98125 0C6.4845 0 4.38 0.86925 2.66625 2.61525C1.79775 3.48375 1.1355 4.47375 0.67425 5.57775C0.22425 6.67125 0 7.8105 0 9C0 10.2 0.22425 11.34 0.67425 12.4222C1.12425 13.5045 1.77675 14.4788 2.634 15.3465C3.50175 16.2038 4.476 16.8652 5.55825 17.3258C6.65175 17.7757 7.79175 18 8.98125 18C10.1708 18 11.3273 17.7675 12.4418 17.307C13.5563 16.8465 14.55 16.1835 15.429 15.3158C16.2758 14.4907 16.9163 13.545 17.3453 12.4733C17.7833 11.391 18 10.233 18 9C18 7.77825 17.7832 6.6225 17.3445 5.5395ZM14.2687 14.1555C13.5398 14.8628 12.7215 15.4065 11.8102 15.7815C10.9102 16.1565 9.9825 16.3425 9.018 16.3425C8.043 16.3425 7.10925 16.1588 6.21975 15.7943C5.33025 15.4193 4.5315 14.8837 3.825 14.187C3.11775 13.4798 2.57175 12.6817 2.18625 11.7922C1.81125 10.8923 1.61925 9.9645 1.61925 9C1.61925 8.025 1.81125 7.09125 2.18625 6.20175C2.57175 5.30175 3.11775 4.49325 3.825 3.7755C5.229 2.33925 6.9615 1.62 9.01875 1.62C11.0542 1.62 12.7905 2.3415 14.2372 3.78825C14.934 4.485 15.468 5.2815 15.8317 6.171C16.1962 7.05975 16.38 8.00325 16.38 9C16.38 11.0677 15.6727 12.7838 14.2687 14.1555Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_41260_10522">
+                                                <rect width="18" height="18" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                <p class="mb-0 ff-hl fs-20 fw-4 lh-32"><span class="fw-7">Zero</span> Subbimission fee
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mt-5 d-flex justify-content-sm-start justify-content-center">
+                            <div class="d-flex align-items-center gap-3">
+                                <span class="svg-icon-box d-flex align-items-center justify-content-center">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_41260_10533)">
+                                            <path
+                                                d="M5.62922 18C4.27153 17.9991 2.95998 17.5072 1.93656 16.6151C0.913149 15.7229 0.246949 14.4907 0.0608936 13.1459C-0.125161 11.801 0.181485 10.4342 0.924248 9.29769C1.66701 8.1612 2.79576 7.3317 4.10222 6.96227C5.05182 6.69033 6.05694 6.6779 7.01297 6.92626L12.944 0.996764C13.2588 0.679727 13.6335 0.428365 14.0463 0.257261C14.459 0.0861575 14.9017 -0.00128235 15.3485 1.42104e-05C16.0516 0.000610035 16.7258 0.280208 17.2231 0.777425C17.7203 1.27464 17.9999 1.94884 18.0005 2.65201C18.0016 3.09886 17.9142 3.5415 17.7433 3.95435C17.5723 4.36719 17.3212 4.74206 17.0045 5.05726L16.5005 5.56126C16.2185 5.84134 15.8374 5.99899 15.44 6.00001H14.2505V6.75001C14.2505 7.14784 14.0924 7.52937 13.8111 7.81067C13.5298 8.09198 13.1483 8.25002 12.7505 8.25002H12.0005V9.43952C12.001 9.63657 11.9624 9.83177 11.887 10.0138C11.8116 10.1958 11.7007 10.3611 11.561 10.5L11.0735 10.9875C11.3232 11.9431 11.311 12.9483 11.0382 13.8975C10.7313 14.979 10.1085 15.9443 9.24958 16.6697C8.3907 17.3951 7.33484 17.8476 6.21722 17.9693C6.02188 17.9896 5.82562 17.9998 5.62922 18ZM5.62922 8.25002C4.86133 8.24927 4.10848 8.46288 3.45541 8.8668C2.80234 9.27073 2.27498 9.84892 1.9327 10.5363C1.59041 11.2237 1.44679 11.993 1.518 12.7575C1.58921 13.5221 1.87242 14.2516 2.33576 14.864C2.7991 15.4763 3.42416 15.9472 4.14059 16.2236C4.85702 16.5 5.63637 16.5709 6.39091 16.4283C7.14546 16.2858 7.84524 15.9355 8.41148 15.4168C8.97772 14.8981 9.38794 14.2317 9.59597 13.4925C9.82997 12.6799 9.80374 11.8145 9.52097 11.0175C9.47482 10.8844 9.46709 10.741 9.49866 10.6037C9.53023 10.4665 9.59982 10.3408 9.69947 10.2413L10.5005 9.43952V8.25002C10.5005 7.85219 10.6585 7.47066 10.9398 7.18935C11.2211 6.90805 11.6026 6.75001 12.0005 6.75001H12.7505V6.00001C12.7505 5.60219 12.9085 5.22066 13.1898 4.93935C13.4711 4.65805 13.8526 4.50001 14.2505 4.50001H15.44L15.944 3.99601C16.1209 3.81988 16.2612 3.61041 16.3568 3.37972C16.4523 3.14903 16.5011 2.9017 16.5005 2.65201C16.5003 2.34668 16.3789 2.05389 16.1631 1.83791C15.9473 1.62193 15.6546 1.50041 15.3492 1.50001C15.0994 1.4994 14.8519 1.54833 14.621 1.64398C14.3902 1.73963 14.1807 1.8801 14.0045 2.05726L7.75622 8.30476C7.65651 8.40443 7.53072 8.47396 7.39329 8.5054C7.25586 8.53684 7.11235 8.52891 6.97922 8.48252C6.54427 8.32938 6.08659 8.25077 5.62547 8.25002H5.62922ZM3.75047 13.5C3.75047 13.6484 3.79446 13.7934 3.87687 13.9167C3.95928 14.04 4.07641 14.1362 4.21346 14.1929C4.3505 14.2497 4.5013 14.2645 4.64679 14.2356C4.79227 14.2067 4.92591 14.1352 5.0308 14.0303C5.13569 13.9255 5.20712 13.7918 5.23606 13.6463C5.265 13.5008 5.25015 13.35 5.19338 13.213C5.13662 13.076 5.04049 12.9588 4.91715 12.8764C4.79381 12.794 4.64881 12.75 4.50047 12.75C4.30156 12.75 4.11079 12.829 3.97014 12.9697C3.82949 13.1103 3.75047 13.3011 3.75047 13.5Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_41260_10533">
+                                                <rect width="18" height="18" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+
+                                </span>
+                                <p class="mb-0 ff-hl fs-20 fw-4 lh-32"><span class="fw-7">Open</span> Acess</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align">
+                        <button
+                            class="d-flex align-items-center txt-color fw-7 fs-20 lh-32 ff-hl gap-2 justify-content-center submit_btn d-lg-none d-block">
+                            Submit
+                            <img src="./assets/img/png/arrow.png" alt="arrow" class="arrow">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
