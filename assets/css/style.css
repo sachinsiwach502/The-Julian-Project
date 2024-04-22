@@ -536,6 +536,13 @@
     background-repeat: no-repeat;
 }
 
+.sec_timeline-bg-img {
+    background-image: url("../img/png/sec_timeline.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /*+++++++++++++++++++++++++++++++++++++++++++ spacing ++++++++++++++++++++++++++++++++++++++++++*/
 
 .pb-90 {
