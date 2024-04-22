@@ -18,8 +18,9 @@ let tabBtn2 = document.querySelector(".tab-btn-2");
 let tabBtn3 = document.querySelector(".tab-btn-3");
 let cangedInfo = document.querySelector(".changing_para");
 let tabCard = document.querySelectorAll(".tab-card");
+let tabCard_1 = document.querySelector(".tab-card");
 
-
+tabCard_1.classList.add("onClickSdow")
 
 tabCard.forEach(element => {
     let click = element.querySelector(".click_part");
