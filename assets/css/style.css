@@ -366,6 +366,25 @@
     max-width: 436px;
 }
 
+.sideline {
+    opacity: 0;
+}
+
+.histry_card_border {
+    border-top: 1px solid rgba(255, 255, 255, 0.32);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+    border-right: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+.histry_brdr_top {
+    border-top: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+.histry_card_left_bottom {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+    border-right: 1px solid rgba(255, 255, 255, 0.32);
+}
+
 .bodr-botm {
     border-bottom: 2px solid rgba(0, 0, 0, 0.24);
 }
@@ -512,6 +531,13 @@
     background-size: cover;
 }
 
+.timeline-bg-img {
+    background-image: url("../img/png/timeline_bg_img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .The_Corona_Civica_bg_img {
     background-image: url("../img/png/The_Corona_Civica_bg_img.png");
     background-repeat: no-repeat;
@@ -547,10 +573,21 @@
     background-repeat: no-repeat;
 }
 
+.history_bg_img {
+    background-image: url("../img/png/why_history_bg_img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /*+++++++++++++++++++++++++++++++++++++++++++ spacing ++++++++++++++++++++++++++++++++++++++++++*/
 
 .pb-90 {
     padding-bottom: 90px;
+}
+
+.pb_65 {
+    padding-bottom: 65px;
 }
 
 .pb_20 {
@@ -805,12 +842,8 @@ ul.tl li .timestamp {
     -webkit-text-fill-color: transparent;
 }
 
-.timeline-bg-img {
-    background-image: url("../img/png/timeline_bg_img.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
+
 
 .after-bottom {
     position: relative;
