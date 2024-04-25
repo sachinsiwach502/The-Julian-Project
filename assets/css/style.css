@@ -366,6 +366,18 @@
     max-width: 436px;
 }
 
+.hidden-txt {
+    display: none;
+}
+
+.accrodian-border {
+    position: relative;
+}
+
+.max-w-730 {
+    max-width: 730px;
+}
+
 .sideline {
     opacity: 0;
 }
@@ -586,6 +598,18 @@
     padding-bottom: 90px;
 }
 
+.pt_150 {
+    padding-top: 150px;
+}
+
+.pt_125 {
+    padding-top: 125px;
+}
+
+.pb_156 {
+    padding-bottom: 156px;
+}
+
 .pb_65 {
     padding-bottom: 65px;
 }
@@ -677,6 +701,20 @@
 }
 
 .onClickSdow::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    padding: 1px;
+    background: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.accrodian-border::before {
     content: "";
     position: absolute;
     inset: 0;

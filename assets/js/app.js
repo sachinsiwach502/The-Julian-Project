@@ -1,3 +1,5 @@
+// hamburger+++++++++++++++++++++++++
+
 let menuList = document.querySelector(".menuList");
 let menuIcon = document.querySelector(".menuIcon");
 
@@ -217,3 +219,41 @@ clickPart8.addEventListener("click", () => {
     magnam, possimus temporibus mollitia impedit, alias similique fugit dolorem unde beatae. Quidem nostrum repellat
     unde facilis corrupti aliquid, atque autem enim recusandae ipsum ex doloremque excepturi?`
 });
+
+// accordina-----------------------------------
+
+let accrodian = document.querySelectorAll(".accrodina-click-box");
+
+accrodian.forEach(items => {
+    let hiddenTxt = items.querySelector(".hidden-txt");
+    let changeImg = items.querySelector(".addIcon");
+
+
+    items.addEventListener("click", () => {
+
+        accrodian.forEach(otheritems => {
+            let hiddenTxt = otheritems.querySelector(".hidden-txt");
+            let changeImg = otheritems.querySelector(".addIcon");
+            if (otheritems !== items) {
+                hiddenTxt.classList.add("d-none");
+                changeImg.innerHTML = "+";
+            }
+        })
+        let textDisplay = window.getComputedStyle(hiddenTxt).display;
+
+        if (textDisplay === "none") {
+            hiddenTxt.classList.add("d-block");
+            hiddenTxt.classList.remove("d-none");
+            hiddenTxt.classList.add("pb-4")
+            changeImg.innerHTML = "-";
+        } else {
+            hiddenTxt.classList.add("d-none");
+            hiddenTxt.classList.remove("d-block");
+            changeImg.innerHTML = "+";
+        }
+    });
+});
+
+
+
+
