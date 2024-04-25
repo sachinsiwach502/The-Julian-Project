@@ -287,12 +287,23 @@
 .max-w_436 {
     max-width: 436px;
 }
-.input-border{
+
+.max-w-1000 {
+    max-width: 1000px;
+}
+
+.input-border {
     border: 1px solid rgba(255, 255, 255, 0.16);
     background-color: transparent;
 }
 
-.media_app{
+.slick-slide>div {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.media_app {
     width: 32px;
     height: 32px;
     background: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
@@ -414,7 +425,26 @@
     transition: all 250ms linear;
 }
 
+.about-content {
+    position: relative;
+}
 
+.w-h-40 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.prev {
+    top: 64%;
+    left: 0;
+}
+
+.next {
+    top: 64%;
+    right: 0;
+}
 
 .svg-bg {
     width: 40px;
@@ -476,6 +506,13 @@
     background-size: cover;
 }
 
+.slider-bg-img {
+    background-image: url("../img/png/slick-slider-bg-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .timeline-bg-img {
     background-image: url("../img/png/timeline_bg_img.png");
     background-size: cover;
@@ -529,6 +566,14 @@
 
 .pb-90 {
     padding-bottom: 90px;
+}
+
+.p_40 {
+    padding: 40px;
+}
+
+.mt_20 {
+    margin-top: 20px;
 }
 
 .pt_150 {
@@ -633,7 +678,35 @@
     pointer-events: none;
 }
 
+.w-h-40::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
 .onClickSdow::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    padding: 1px;
+    background: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.about-content::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -830,3 +903,12 @@ ul.tl li .timestamp {
     left: 20px;
     right: 20px;
 }
+
+
+/* .slick-slide {
+    margin-left: 27px;
+}
+
+.slick-list {
+    margin-left: -27px;
+} */
