@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+/* @import url("./root.css"); */
 
 @font-face {
     font-family: Helvetica;
     src: url("../fonts/Helvetica.ttf");
 }
 
-@import url("../css/root.css");
 
 /* -------------------------------unviversal selector---------------------------------------- */
 * {
@@ -16,84 +16,6 @@
     text-decoration: none !important;
     list-style: none !important;
     /* transition: all 400ms linear !important; */
-}
-
-/* ---------------------------------------------root------------------------------------------- */
-:root {
-    --ff-eb: "EB Garamond",
-        serif;
-    --ff-hl: Helvetica;
-
-    --fw-3: 300;
-    --fw-4: 400;
-    --fw-5: 500;
-    --fw-6: 600;
-    --fw-7: 700;
-    --fw-8: 800;
-
-
-    --black-color: #000000;
-    --white-color: #ffff;
-    --img-bg-color: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
-
-    --fs-10: 10px;
-    --fs-14: 14px;
-    --fs-15: 15px;
-    --fs-16: 16px;
-    --fs-18: 18px;
-    --fs-20: 20px;
-    --fs-21: 21px;
-    --fs-24: 24px;
-    --fs-25: 25px;
-    --fs-28: 28px;
-    --fs-30: 30px;
-    --fs-32: 32px;
-    --fs-36: 36px;
-    --fs-40: 40px;
-    --fs-44: 44px;
-    --fs-48: 48px;
-    --fs-50: 50px;
-    --fs-52: 52px;
-    --fs-60: 60px;
-    --fs-61: 61px;
-    --fs-64: 64px;
-    --fs-70: 70px;
-    --fs-72: 72px;
-    --fs-80: 80px;
-    --fs-157: 157px;
-
-
-    --lh-16: 16px;
-    --lh-19: 19px;
-    --lh-21: 21px;
-    --lh-20: 20px;
-    --lh-23: 23px;
-    --lh-24: 24px;
-    --lh-26: 26px;
-    --lh-27: 27px;
-    --lh-28: 28px;
-    --lh-29: 29px;
-    --lh-30: 30px;
-    --lh-32: 32px;
-    --lh-35: 35px;
-    --lh-37: 37px;
-    --lh-39: 39px;
-    --lh-40: 40px;
-    --lh-41: 41px;
-    --lh-42: 42px;
-    --lh-45: 45px;
-    --lh-49: 49px;
-    --lh-54: 54px;
-    --lh-56: 56px;
-    --lh-61: 61px;
-    --lh-68: 68px;
-    --lh-72: 72px;
-    --lh-75: 75px;
-    --lh-83: 83px;
-    --lh-86: 86px;
-    --lh-100: 100px;
-    --lh-188: 188px;
-
 }
 
 /* ---------------------root specified ------------------------------*/
@@ -364,6 +286,17 @@
 /*++++++++++++++++++++++++++++++++++++++ normal css +++++++++++++++++++++++++++++++++++++++++++*/
 .max-w_436 {
     max-width: 436px;
+}
+.input-border{
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    background-color: transparent;
+}
+
+.media_app{
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
+    border-radius: 50%;
 }
 
 .hidden-txt {
