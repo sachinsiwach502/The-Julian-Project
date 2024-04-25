@@ -268,7 +268,7 @@ $('.slick_slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: ".next",
-    prevArrow:".prev",
+    prevArrow: ".prev",
     responsive: [
         {
             breakpoint: 1024,
@@ -299,6 +299,31 @@ $('.slick_slider').slick({
     ]
 });
 
+
+//---------------------- scroll to top
+let scroll_top = document.querySelector(".scroll_to_top");
+let scrol_pt = 200;
+scroll_top.style.display = "none";
+window.addEventListener("scroll", () => {
+    if (window.scrollY > scrol_pt) {
+        scroll_top.style.display = "block"
+    } else {
+        scroll_top.style.display = "none";
+    }
+});
+
+scroll_top.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0, behaviour: "smooth",
+    })
+});
+
+// preloader---------------------
+let preloader = document.querySelector(".preloader");
+preloader.classList.add("d-flex");
+setTimeout(() => {
+    preloader.classList.add("d-none");
+}, 3000);
 
 
 
