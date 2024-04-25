@@ -2,9 +2,15 @@
 
 let menuList = document.querySelector(".menuList");
 let menuIcon = document.querySelector(".menuIcon");
+let body = document.body;
 
 menuIcon.addEventListener("click", () => {
     menuList.classList.toggle("start-0");
+    if (menuList.classList.contains("start-0")) {
+        body.classList.add("overflow-hidden");
+    } else {
+        body.classList.remove("overflow-hidden");
+    }
 });
 
 $(document).ready(function () {
