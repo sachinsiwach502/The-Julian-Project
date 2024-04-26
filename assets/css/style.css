@@ -236,7 +236,8 @@
     height: 105%;
     top: 0;
     right: 0;
-    background: var(--img-bg-color);
+    /* background: var(--img-bg-color); */
+    background-color: var(--black-color);
     z-index: 100;
 }
 .txt-shdow {

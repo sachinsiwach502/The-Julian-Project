@@ -490,7 +490,7 @@
     }
 }
 
-@media (max-width:1024px) {
+@media (max-width:1023.9px) {
     .max-w-1120 {
         max-width: 1120px;
     }
