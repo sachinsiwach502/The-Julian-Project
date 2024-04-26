@@ -271,12 +271,16 @@ $('.slick_slider').slick({
     prevArrow: ".prev",
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 992,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: false
+                dots: false,
+                nextArrow: false,
+                prevArrow: false,
+                autoplay: true,
+                autoplaySpeed:1500,
             }
         },
         {

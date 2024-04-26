@@ -23,20 +23,20 @@
 
 <body>
     <!------------ preloader -------------------->
-    <section>
+    <!-- <section>
         <div class="preloader d-flex align-items-center justify-content-center w-100 h-100">
             <div class="position-absolute cv_txt d-flex justify-content-center align-items-center flex-column">
                 <div class="preloader_logo"> <img src="./assets/img/png/nav-icon.png" alt="nav-icon"></div>
                 <h1 class=" fs-70 text-black ff-p txt-shdow text-white text-center fs-lh-30-54">The Julian Project</h1>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <header class="hero_bg_img min-vh-100 d-flex flex-column">
+    <header class="hero_bg_img max-md-min-vh-100 d-flex flex-column">
         <nav>
             <div class="hero_container">
                 <div class="d-flex align-items-center justify-content-between py_30">
-                    <span><img src="./assets/img/png/nav-icon.png" alt="nav icon" class="w-100"></span>
+                    <span class="curser"><img src="./assets/img/png/nav-icon.png" alt="nav icon" class="w-100"></span>
 
                     <ul class="d-flex align-items-center gap_36 mb-0 ps-0 menuList ">
                         <li><a href="#" class="ff-hl fs-16 fw-4 lh-24 nav_links text-white opacity-75">Home</a></li>
@@ -69,8 +69,8 @@
         </nav>
         <!------------------------------------------ hero section --------------------------------------------->
         <div class="flex-grow-1 d-block align-content-center flex-column justify-content-center">
-            <div class="hero_container">
-                <h1 class="ff-ed fw-7 fs-64 lh-83 txt-color">Dive Into The Past</h1>
+            <div class="hero_container min-md-py-100">
+                <h1 class="ff-ed fw-7 fs-64 lh-83 txt-color md-fs-36 md-lh-42">Dive Into The Past</h1>
                 <p class="ff-hl fw-4 fs-16 lh-25 opacity-75 text-white max-w_436">Lorem ipsum dolor sit amet
                     consectetur. Sit vel a nunc enim amet phasellus fringilla. Sed vel egestas at cras rutrum
                     nunc massa . Lectus sed vestibulum facilisis odio.</p>
@@ -88,7 +88,7 @@
         <!------------------------------- about section --------------------------------------->
         <section>
             <div class="hero_container ">
-                <div class="shadow rounded-3 position-relative detail-sec bg-white">
+                <div class="shadow rounded-3 position-relative detail-sec bg-white max-md-mt-40 max-sm-mt-70">
                     <div class="p-5">
                         <div class="row">
                             <div
@@ -282,7 +282,8 @@
             </div>
             <div class="hero_container pb-90">
                 <div class="d-flex align-items-center justify-content-center">
-                    <h1 class="ff-hl mb-0 fw-7 fs-48 lh-56 text-center max-w-524">Start Writing Your Own History Paper
+                    <h1 class="ff-hl mb-0 fw-7 fs-48 lh-56 text-center max-w-524 md-fs-30 md-lh-35">Start Writing Your
+                        Own History Paper
                     </h1>
                 </div>
                 <p class="mb-0 text-center fs-16  fw-4 lh-26 opacity-75 pt-3 pb-5">Choose your topic. Find expert
@@ -352,7 +353,8 @@
         <section class="The_Corona_Civica_bg_img">
             <div class="hero_container py-100">
                 <div class="d-flex align-items-center justify-content-center flex-column">
-                    <h1 class="ff-hl fs-48 lh-56 fw-7 text-center corona_sec-gradient mb-0">The Corona Civica</h1>
+                    <h1 class="ff-hl fs-48 lh-56 fw-7 text-center corona_sec-gradient mb-0 md-fs-30 md-lh-35">The Corona
+                        Civica</h1>
                     <p class="ff-hl opacity-75 fw-4 fs-16 text-center text-white max-w-662 pt-3">To bridge the
                         inequality gap
                         in the humanities, The Julian Grant recognizes and supports the
@@ -513,7 +515,7 @@
                 <div class="slick_slider">
                     <div class="row p_40 about-content bg-white mt_20 d-flex max-w-1000">
                         <div class="col-md-7">
-                            <h1 class="fw-7 fs-48 lh-56 ff-hl pt-3 mb-0">Prize-Winning Projects</h1>
+                            <h1 class="fw-7 fs-48 lh-56 ff-hl pt-3 mb-0 md-fs-30 md-lh-35">Prize-Winning Projects</h1>
                             <h3 class="ff-hl fw-4 lh-27 fs-24 pt-3 mb-0">The Story of <span
                                     class="timeline-heading">Civilization</span></h3>
                             <p class="mb-0 fs-16 fw-4 lh-26 ff-hl opacity-75 pt-3">Choose your topic. Find expert
@@ -533,7 +535,7 @@
                     </div>
                     <div class="row p_40 about-content bg-white mt_20 d-flex max-w-1000">
                         <div class="col-md-7">
-                            <h1 class="fw-7 fs-48 lh-56 ff-hl pt-3 mb-0">Prize-Winning Projects</h1>
+                            <h1 class="fw-7 fs-48 lh-56 ff-hl pt-3 mb-0 md-fs-30 md-lh-35">Prize-Winning Projects</h1>
                             <h3 class="ff-hl fw-4 lh-27 fs-24 pt-3 mb-0">The Story of <span
                                     class="timeline-heading">Civilization</span>
                             </h3>
@@ -555,7 +557,7 @@
                         </div>
                     </div>
                 </div>
-                <span class="prev w-h-40 d-flex align-items-center justify-content-center position-absolute">
+                <span class="prev w-h-40 d-flex align-items-center justify-content-center position-absolute d-none d-lg-block">
                     <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 1L1 7.5L7 14" stroke="url(#paint0_linear_50934_191)" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" />
@@ -568,7 +570,7 @@
                         </defs>
                     </svg>
                 </span>
-                <span class="next w-h-40 d-flex align-items-center justify-content-center position-absolute">
+                <span class="next w-h-40 d-flex align-items-center justify-content-center position-absolute d-none d-lg-block">
                     <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L7 7.5L0.999999 14" stroke="url(#paint0_linear_50934_191)" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" />
@@ -587,7 +589,7 @@
 
         <!---------------------------------- first timeline --------------------------------------->
         <section class="timeline-bg-img">
-            <h1 class="text-center timeline-heading fs-48 lh-56 fw-7 pt_120">Submission Timeline</h1>
+            <h1 class="text-center timeline-heading fs-48 md-fs-30 md-lh-35 lh-56 fw-7 pt_120">Submission Timeline</h1>
             <div class="history-tl-container pt_64 position-relative">
                 <ul class="tl">
 
@@ -699,16 +701,18 @@
                             are
                             Interested, please apply now for The Julian Project Grants.</p>
                     </div>
-                    <div class="col-lg-6">
-                        <h1 class="fw-7 fs-48 lh-56 ff-hl">The Julian Grant</h1>
-                        <p class="ff-hl fs-16 lh-26 opacity-75 mb-0 pt-3">To bridge the inequality gap in the
+                    <div class="col-lg-6 mt-4 mt-lg-0">
+                        <h1 class="fw-7 fs-48 md-fs-30 md-lh-35 lh-56 ff-hl text-center text-lg-start">The Julian Grant
+                        </h1>
+                        <p class="ff-hl fs-16 lh-26 opacity-75 mb-0 pt-3 text-center text-lg-start">To bridge the
+                            inequality gap in the
                             humanities, The
                             Julian Grant recognizes and supports the remarkable achievements of
                             low-income historians. Valued at $250,this esteemed grant aims to honor the resilience and
                             academic prowess of low
                             income scholars who have displayed exceptional dedication and passion in their pursuit of
                             the histories.</p>
-                        <p class="ff-hl fs-16 lh-26 opacity-75 mb-0 pt-3">
+                        <p class="ff-hl fs-16 lh-26 opacity-75 mb-0 pt-3 text-center text-lg-start">
                             By providing financial assistance, The Julian Grant seeks to empower and enable low-income
                             students of history to
                             continue their invaluable contributions to the field of history. This award not only
@@ -717,11 +721,13 @@
                             endeavors within the historical
                             community.
                         </p>
-                        <button
-                            class="d-flex align-items-center txt-color fw-7 fs-20 lh-32 ff-hl gap-2 justify-content-center submit_btn mt-5">
-                            Apply Now
-                            <img src="./assets/img/png/arrow.png" alt="arrow" class="arrow">
-                        </button>
+                        <div class="d-lg-block d-flex align-items-center justify-content-center">
+                            <button
+                                class="d-flex align-items-center txt-color fw-7 fs-20 lh-32 ff-hl gap-2 justify-content-center submit_btn mt-5">
+                                Apply Now
+                                <img src="./assets/img/png/arrow.png" alt="arrow" class="arrow">
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -729,16 +735,17 @@
 
 
         <!------------------------------------ sec-timeline --------------------------->
-        <section class="sec_timeline-bg-img">
-            <h1 class="text-center timeline-heading fs-48 lh-56 fw-7 pt_120 mb-0">Pro Bono Publico</h1>
+        <section class="sec_timeline-bg-img prob">
+            <h1 class="text-center timeline-heading fs-48 md-fs-30 md-lh-35 lh-56 fw-7 pt_120 mb-0">Pro Bono Publico
+            </h1>
             <p class="mb-0 ff-hl fs-16 lh-26 text-white text-center opacity-75 pt-3">Get Expert Guidance to Bring Your
                 Vision to Life.</p>
             <div class="history-tl-container pt_64 position-relative">
                 <ul class="tl">
 
                     <li class="tl-item max-w-1120 max-w-876 ps-5" ng-repeat="item in retailer_history">
-                        <div class="position-relative lg-pt-5 ps-4 after-bottom">
-                            <p class="timestamp ff-hl fw-7 text-white fs-24 lh-39">
+                        <div class="position-relative lg-pt-5 ps-4">
+                            <p class="timestamp ff-hl fw-7 text-white fs-20 lh-39 text-nowrap">
                                 Week 1–4
                             </p>
                             <div class="item-title ff-hl fs-16 fw-4 text-white lh-26">Unveiling Topics, Delving into
@@ -756,8 +763,8 @@
 
 
                     <li class="tl-item max-w-1120 max-w-876 ps-5" ng-repeat="item in retailer_history">
-                        <div class="position-relative lg-pt-5 ps-4 after-bottom">
-                            <p class="timestamp ff-hl fw-7 text-white fs-24 lh-39">
+                        <div class="position-relative lg-pt-5 ps-4">
+                            <p class="timestamp ff-hl fw-7 text-white fs-20 lh-39 text-nowrap">
                                 Week 5-6
                             </p>
                             <div class="item-title ff-hl fs-16 fw-4 text-white lh-26">Final Submission</div>
@@ -772,24 +779,12 @@
                     </li>
 
 
-                    <li class="tl-item max-w-1120 max-w-876 ps-5" ng-repeat="item in retailer_history">
-                        <div class="position-relative lg-pt-5 ps-4 after-bottom">
-                            <p class="timestamp ff-hl fw-7 text-white fs-24 lh-39">
-                                Step 3
-                            </p>
-                            <div class="item-title ff-hl fs-16 fw-4 text-white lh-26">Reviewal Process</div>
-                            <p class="item-detail d-inline ff-hl fs-16 fw-4 text-white lh-26 opacity-75">The next step
-                                to publishing is the reviewal process. Once a
-                                paper is
-                                accepted for publication, there is
-                                three week turn-around to make final edits before final publication.</p>
-                        </div>
-                    </li>
+
 
 
                     <li class="tl-item max-w-1120 max-w-876 ps-5" ng-repeat="item in retailer_history">
-                        <div class="position-relative lg-pt-5 ps-4 after-bottom">
-                            <p class="timestamp ff-hl fw-7 text-white fs-24 lh-39">
+                        <div class="position-relative lg-pt-5 ps-4">
+                            <p class="timestamp ff-hl fw-7 text-white fs-20 lh-39 text-nowrap">
                                 Week 7-12
                             </p>
                             <div class="item-title ff-hl fs-16 fw-4 text-white lh-26">Publishing</div>
@@ -802,8 +797,8 @@
                         </div>
                     </li>
                     <li class="tl-item max-w-1120 max-w-876 ps-5" ng-repeat="item in retailer_history">
-                        <div class="position-relative lg-pt-5 ps-4 after-bottom">
-                            <p class="timestamp ff-hl fw-7 text-white fs-24 lh-39">
+                        <div class="position-relative lg-pt-5 ps-4">
+                            <p class="timestamp ff-hl fw-7 text-white fs-20 lh-39 text-nowrap">
                                 Week 13-14
                             </p>
                             <div class="item-title ff-hl fs-16 fw-4 text-white lh-26">Publishing</div>
@@ -817,7 +812,7 @@
                     </li>
                     <li class="tl-item max-w-1120 max-w-876 ps-5" ng-repeat="item in retailer_history">
                         <div class="position-relative lg-pt-5 ps-4 ">
-                            <p class="timestamp ff-hl fw-7 text-white fs-24 lh-39">
+                            <p class="timestamp ff-hl fw-7 text-white fs-20 lh-39 text-nowrap">
                                 Week 16-24
                             </p>
                             <div class="item-title ff-hl fs-16 fw-4 text-white lh-26">Publishing</div>
@@ -831,7 +826,7 @@
                     </li>
                     <li class="tl-item max-w-1120 max-w-876 ps-5" ng-repeat="item in retailer_history">
                         <div class="position-relative lg-pt-5 ps-4 ">
-                            <p class="timestamp ff-hl fw-7 text-white fs-24 lh-39">
+                            <p class="timestamp ff-hl fw-7 text-white fs-20 lh-39 text-nowrap">
                                 Week 25-26
                             </p>
                             <div class="item-title ff-hl fs-16 fw-4 text-white lh-26">Publishing</div>
@@ -845,7 +840,7 @@
                     </li>
                     <li class="tl-item max-w-1120 max-w-876 ps-5" ng-repeat="item in retailer_history">
                         <div class="position-relative lg-pt-5 ps-4">
-                            <p class="timestamp ff-hl fw-7 text-white fs-24 lh-39">
+                            <p class="timestamp ff-hl fw-7 text-white fs-20 lh-39 text-nowrap">
                                 Week 27-29
                             </p>
                             <div class="item-title ff-hl fs-16 fw-4 text-white lh-26">Publishing</div>
@@ -862,7 +857,7 @@
                 <div class="tl-item max-w-1120 max-w-876 ps-5 position-relative timeline_icon max_lg_left_132"
                     ng-repeat="item in retailer_history">
                     <div class="position-relative  ps-4">
-                        <p class="timestamp ff-hl fw-7 text-white fs-24 lh-39 position-relative pos_lg-absolute">
+                        <p class="timestamp ff-hl fw-7 text-white fs-20 lh-39 position-relative pos_lg-absolute">
                             Week 30
                         </p>
                         <div class="item-title ff-hl fs-16 fw-4 text-white lh-26">Prizes</div>
@@ -892,8 +887,10 @@
             <div class="container position-relative z-3">
                 <div class="row">
                     <div class="col-lg-7">
-                        <h1 class="ff-hl fs-48 lh-56 text-black mb-0">Apply in Under an Hour</h1>
-                        <p class="ff-hl fs-16 lh-26 fw-4 mb-0 pt-3">Lorem ipsum dolor sit amet consectetur. Sit vel a
+                        <h1 class="ff-hl fs-48 md-fs-30 md-lh-35 lh-56 text-black mb-0 text-lg-start text-center">Apply
+                            in Under an Hour</h1>
+                        <p class="ff-hl fs-16 lh-26 fw-4 mb-0 pt-3 text-lg-start text-center">Lorem ipsum dolor sit amet
+                            consectetur. Sit vel a
                             nunc enim amet
                             phasellus fringilla. Sed vel egestas at cras rutrum
                             nunc massa . Lectus sed vestibulum facilisis odio.
@@ -947,7 +944,7 @@
         <!------------------------------------- why history -------------------------------->
         <section class="history_bg_img">
             <div class="hero_container pt_125 pb_156">
-                <h1 class="fs-48 fw-7 lh-56 text-center timeline-heading mb-0 ff-hl">Why History</h1>
+                <h1 class="fs-48 md-fs-30 md-lh-35 fw-7 lh-56 text-center timeline-heading mb-0 ff-hl">Why History</h1>
                 <p class="ff-hl fs-16 lh-26 fw-4 mb-0 pt-3 text-center text-white pb_65 opacity-75">Tackle the world’s
                     most
                     pressing
@@ -1099,10 +1096,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 ">
-                        <p class="fs-24 fw-4 lh-39 mb-0 text-white ff-hl">Origins of <span
+                    <div class="col-md-8 mt-5 mt-lg-0">
+                        <p class="fs-24 fw-4 lh-39 mb-0 text-white ff-hl text-center text-lg-start">Origins of <span
                                 class="timeline-heading changingHeading">Political Systems</span></p>
-                        <p class="fw-4 fs-16 lh-26 ff-hl pt-3 text-white opacity-75 changing_paragraph">The origins of
+                        <p
+                            class="fw-4 fs-16 lh-26 ff-hl pt-3 text-white opacity-75 changing_paragraph text-center text-lg-start">
+                            The origins of
                             political history systems can be traced back to ancient civilizations, where early forms of
                             governance
                             and societal organization emerged. One of the earliest political systems was found in
@@ -1122,7 +1121,8 @@
 
         <!---------------------------------------- faq ------------------------------------------>
         <section>
-            <h1 class="ff-hl fs-48 lh-56 text-black mb-0 text-center pt_150">Frequently Asked Questions</h1>
+            <h1 class="ff-hl fs-48 md-fs-30 md-lh-35 lh-56 text-black mb-0 text-center pt_150">Frequently Asked
+                Questions</h1>
             <div class="d-flex align-items-center justify-content-center">
                 <p class="ff-hl fs-16 lh-26 fw-4 mb-0 pt-3 text-center max-w-730 opacity-75">Lorem ipsum dolor sit amet
                     consectetur.
@@ -1206,24 +1206,30 @@
 
         <!------------------------------- Devi into the past ----------------------------->
         <section class="position-relative">
-            <div class="position-absolute top-0 end-0">
+            <div class="position-absolute top-0 end-0 random-panting">
                 <img src="./assets/img/png/devin-into-past-random-img.png" alt="random img" class="w-100">
             </div>
             <div class="hero_container position-relative z-2 pb-5 pt_91">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h1 class="ff-ed fs-48 lh-56 text-black mb-0">Dive Into The Past</h1>
-                        <p class="ff-hl fs-16 lh-26 fw-4 mb-0 pt-3">Lorem ipsum dolor sit amet consectetur. Sit vel a
+                        <h1 class="ff-ed fs-48 md-fs-30 md-lh-35 lh-56 text-black mb-0 text-center text-lg-start">Dive
+                            Into The Past</h1>
+                        <p class="ff-hl fs-16 lh-26 fw-4 mb-0 pt-3 text-center text-lg-start">Lorem ipsum dolor sit amet
+                            consectetur. Sit vel a
                             nunc
                             enim amet phasellus fringilla. Sed vel egestas at cras rutrum
                             nunc massa . Lectus sed vestibulum facilisis odio.
                         </p>
-                        <button
-                            class="d-flex align-items-center txt-color fw-7 fs-20 lh-32 ff-hl gap-2 justify-content-center submit_btn mt_32">
-                            Submit Now
-                            <img src="./assets/img/png/arrow.png" alt="arrow" class="arrow">
-                        </button>
-                        <p class="ff-hl fw-4 fs-20 lh-32 opacity-75 max-w_436 pt-1 text-black">Submit by May 1, 2023</p>
+                        <div class="d-lg-block d-flex align-items-center justify-content-center">
+                            <button
+                                class="d-flex align-items-center txt-color fw-7 fs-20 lh-32 ff-hl gap-2 justify-content-center submit_btn mt_32">
+                                Submit Now
+                                <img src="./assets/img/png/arrow.png" alt="arrow" class="arrow">
+                            </button>
+                        </div>
+
+                        <p class="ff-hl fw-4 fs-20 lh-32 opacity-75 pt-1 text-black text-lg-start text-center">Submit by
+                            May 1, 2023</p>
                     </div>
                 </div>
                 <div class="row pt-5">
@@ -1400,7 +1406,7 @@
                 </div>
             </div>
             <div class="row pt-5 justify-content-between">
-                <div class="col-lg-3 col-6">
+                <div class="col-lg-3 col-6 ">
                     <ul class="ps-0">
                         <li>
                             <h2 class="fw-7 fs-16 lh-26 ff-hl text-white">The Julian Project</h2>
@@ -1420,7 +1426,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-6">
+                <div class="col-lg-3 col-6 ps-lg-5 ps-0">
                     <ul class="ps-0">
                         <li>
                             <h2 class="fw-7 fs-16 lh-26 ff-hl text-white">Organization</h2>
@@ -1432,7 +1438,7 @@
                         <li class="pt-2"><a href="#"
                                 class="fs-16 fw-4 lh-26 opacity-75 text-white footer-links">Legal</a></li>
                 </div>
-                <div class="col-lg-2 col-6">
+                <div class="col-lg-3 col-6 ps-lg-100 mt-3 mt-lg-0">
                     <ul class="ps-0">
                         <li>
                             <h2 class="fw-7 fs-16 lh-26 ff-hl text-white">Legal</h2>
@@ -1444,7 +1450,7 @@
                                 conditions</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-6">
+                <div class="col-lg-3 col-6 ps-lg-100 mt-3 mt-lg-0">
                     <h1 class="text-white fw-7 fs-16 lh-26">Follow Us On</h1>
                     <div class="d-flex gap-3">
                         <a href="https://www.facebook.com/" target="_blank"> <span

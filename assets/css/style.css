@@ -21,6 +21,10 @@
     max-width: 436px;
 }
 
+.prob ul.tl li .timestamp{
+    left: -20%;
+}
+
 .scroll_to_top {
     width: 40px;
     height: 40px;
